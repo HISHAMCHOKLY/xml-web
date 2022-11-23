@@ -1,0 +1,127 @@
+main {
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.pad {
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+
+nav {
+  padding: 30px;
+}
+nav li {
+  padding: 0 10px;
+}
+nav .nav-link {
+  color: white;
+}
+
+hero-part {
+  text-align: center;
+  width: 100%;
+}
+hero-part .bg {
+  background-color: #494C55;
+}
+hero-part h1 {
+  padding-top: 100px;
+}
+
+benefits-part {
+  padding: 40px 0;
+}
+benefits-part .pad-ben {
+  padding-left: 6%;
+  padding-right: 0;
+}
+benefits-part .box {
+  background-color: #3B4550;
+  color: #3B4550;
+  height: 100px;
+}
+benefits-part texts .head {
+  padding-top: 0px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+benefits-part texts .sub {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+getStart-part {
+  padding: 40px 0;
+}
+getStart-part .bg {
+  background-color: #f1f1f1;
+}
+getStart-part .box {
+  background-color: #3B4550;
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+getStart-part .texts .head {
+  font-size: 20px;
+  font-weight: 500;
+}
+getStart-part .texts .sub {
+  font-size: 15px;
+  font-weight: 500;
+}
+getStart-part .video-part {
+  background-color: #30333C;
+  width: 100%;
+}
+
+program-part {
+  padding: 40px 0;
+}
+program-part .box {
+  height: 200px;
+  background: #3B4550;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+program-part .main-head {
+  font-size: 35px;
+  font-weight: 500;
+}
+
+signUp-part .bg {
+  background-color: #3776E8;
+}
+signUp-part input {
+  width: 100%;
+  height: 35px;
+}
+
+footer-part {
+  background-color: #3e4551;
+}
+footer-part .bg {
+  background-color: #3e4551;
+}
+footer-part div {
+  padding: 3% 5% 2%;
+}
+footer-part .dark-part {
+  padding: 30px;
+  background-color: #30333C;
+}
+
+@media only screen and (max-width: 768px) {
+  benefits-part {
+    padding: 40px 0;
+  }
+  benefits-part .pad-ben {
+    padding-left: 12%;
+    padding-right: 0;
+  }
+}/*# sourceMappingURL=style.css.map */
